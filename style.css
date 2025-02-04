@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", serif;
+    scroll-behavior: smooth;
+}
+
+
+/* BEGIN INDEX.HTML */
+body {
+    background-color: #27282a;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    height: 50px;
+    margin-top: none;
+}
+
+.navigatie {
+    display: flex;
+    gap: 30px;
+}
+
+.navigatie a,
+.logo {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(31, 31, 31);
+    width: 100%;
+    padding: 30px 0;
+    gap: 450px;
+    font-weight: bold;
+}
+
+.play-now1 {
+    text-decoration: none;
+    color: white;
+}
+
+.naam {
+    margin-top: 30px;
+    font-size: 100px;
+}
+
+.slogan {
+    font-size: 20px;
+}
+
+.homepagecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.play-now2 {
+    margin-top: 70px;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: rgb(196, 45, 45);
+    display: inline-block;
+    padding: 20px 40px;
+    text-align: center;
+    color: white;
+    border-color: white;
+    outline: 1px solid white;
+    outline-offset: 5px;
+}
+
+.play-now2:hover {
+    opacity: 0.8;
+}
+
+.pijlonder {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.pijlonder img {
+    transition: transform 0.4s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.pijlonder img:hover {
+    transform: scale(1.2);
+}
+
+#news {
+    height: 70vh;
+    padding: 50px;
+    background-color: #fff;
+}
+
+#homepage {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    background-color: #27282a;
+}
+
+
+
+/* EINDE INDEX.HTML */
+
+/* BEGIN NEWS.HTML */
+.newstitle {
+    color: black;
+    font-size: 30px;
+}
+
+.newsimage {
+    width: 380px;
+    height: 280px;
+}
+
+.news-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.newsframeinfo,
+.newsframetitle,
+.newsframedesc {
+    color: black;
+    margin-top: 8px;
+}
+
+.newsframeinfo {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.newsframetitle {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.newsframedesc {
+    font-size: 14px;
+}
+
+.newstitle {
+    margin-left: 75px;
+}
+
+.newsimage {
+    transition: transform 0.4s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.newsimage:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+/* EINDE NEWS.HTML */
+
+/* BEGIN DOWNLOAD.HTML */
+
+.platform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px;
+    font-size: 50px;
+}
+
+.btn {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s ease, opacity 0.3s ease;
+}
+
+.btn.app,
+.btn.google {
+    background: rgb(196, 45, 45);
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.log-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.account-create {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.border-account {
+    border-bottom: red 2px solid;
+}
+
+.account-create a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.account-create a:hover,
+.account-create a:focus,
+.account-create a:active {
+    color: red;
+    transform: translateY(-5px);
+    text-decoration: none;
+}
+
+.pfs {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: grey;
+}
+
+.unity {
+    align-items: center;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.unityandtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #111111;
+}
+
+.footer-links {
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.footer-links a:hover {
+    transform: translateY(-5px);
+}
+
+.rating-container {
+    display: flex;
+    align-self: center;
+    margin-bottom: 30px;
+    background-color: #111111;
+    border-radius: 12px;
+    display: inline-block;
+}
+
+.rating-card {
+    width: 250px;
+    padding: 10px;
+    background-color: #27282a;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.rating-card img {
+    height: 100px;
+}
+
+.rating-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 14px;
+}
+
+#downloadpage {
+    height: 70vh;
+}
+
+
+
+
+
+/* EINDE DOWNLOAD.HTML */
+
+/* BEGIN GAME-INFO.HTML */
+.game-info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 35px;
+
+}
+
+.word-game-info {
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.text-game-info {
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+/* EINDE GAME-INFO.HTML */
+
+/* BEGIN SOCIAL.HTML */
+/* EINDE SOCIAL.HTML */
+
+
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: #27282a;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.game-card {
+    background-color: #171616;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.game-card img {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+
+.game-card .content {
+    padding: 15px;
+    text-align: center;
+}
+
+.game-card .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.game-card .price {
+    font-size: 16px;
+    color: red;
+}
+
+.game-card .tag {
+    font-size: 14px;
+    color: #999;
+}
