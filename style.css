@@ -6,7 +6,6 @@
     scroll-behavior: smooth;
 }
 
-
 /* BEGIN INDEX.HTML */
 body {
     background-color: #27282a;
@@ -107,7 +106,8 @@ header {
     align-items: center;
     position: relative;
     text-align: center;
-    background-color: #27282a;
+    background-image: url(images/bannerweb.png);
+    background-size: cover;
 }
 
 
