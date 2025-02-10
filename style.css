@@ -495,3 +495,45 @@ header {
 .navigatie:hover a:hover {
     color: #ff4c4c;
 }
+
+/* EINDE NAV*/
+
+/* BEGIN STAFFPAGINE */
+
+.teamcontainer {
+    display: flex;
+    margin-top: 150px;
+}
+
+.teamlogo {
+    width: 400px;
+    height: 400px;
+    margin-left: 250px;
+}
+
+.teamdesc {
+    font-size: 20px;
+    width: 450px;
+    margin-left: 100px;
+}
+
+.teamdesctitle {
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.teamtext {
+    display: flex;
+    flex-direction: column;
+}
+
+.teamintrotext {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 200px;
+}
+
+/* EINDE STAFFPAGINE */
