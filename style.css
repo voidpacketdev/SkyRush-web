@@ -47,6 +47,8 @@ header {
 .naam {
     margin-top: 30px;
     font-size: 100px;
+    color: rgb(237, 51, 51);
+    -webkit-text-stroke-width: 1px;
 }
 
 .slogan {
@@ -86,6 +88,8 @@ header {
 
 .pijlonder img {
     transition: transform 0.4s cubic-bezier(0.25, 0.1, 0.25, 1);
+    width: 45px;
+    height: 40px;
 }
 
 .pijlonder img:hover {
@@ -106,7 +110,7 @@ header {
     align-items: center;
     position: relative;
     text-align: center;
-    background-image: url(images/bannerweb.png);
+    background-image: url(images/background2.png);
     background-size: cover;
 }
 
@@ -163,9 +167,6 @@ header {
 .newsimage:hover {
     transform: scale(1.1);
 }
-
-
-
 
 
 
