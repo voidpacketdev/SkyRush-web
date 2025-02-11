@@ -537,4 +537,33 @@ header {
     margin-top: 200px;
 }
 
+.staffpic {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.developerstxt,
+.media-designerstxt {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.developerscontainer,
+.mdcontainer {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 30px;
+}
+
+.devdesc,
+.mddesc {
+    width: 300px;
+}
+
+
+
 /* EINDE STAFFPAGINE */
